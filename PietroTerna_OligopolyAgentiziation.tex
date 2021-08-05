@@ -74,10 +74,10 @@
 
 \begin{document}
 
-\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
 
 \titlepage
 
@@ -147,12 +147,13 @@ Mazzoli, M., Morini, M., and Terna, P. 2019. \emph{Rethinking Macroeconomics wit
 \section{Theoretical analysis}
 
 \subsection{Main assumptions}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Interactions among oligopolistic firms}
 
 We introduce a new macromodel where entry, exit and strategic interactions among oligopolistic firms are explicitly formalized and may generate macroeconomic fluctuations. 
 
-About macroeconomic impact of business formation we refer to Gabaix (2011). His ``granular hypothesis'' was initially studied by Jaimovich (2007). 
+About macroeconomic impact of business formation we refer to Gabaix (2011). His ``granular hypothesis'' was initially studied by Jaimovich and Rebelo (2009). 
 
 \bigskip
 \bigskip
@@ -171,7 +172,42 @@ Jaimovich, N., and Rebelo, S. 2009. Can news about the future drive the
 business cycle? \emph{American Economic Review}, \textbf{99}(4), 1097--118.
 
 \end{frame}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Aggregate demand}
+
+The microfounded optimization problem of the heterogeneous consumers with the same preferences but different budget constraint (depending on wether they are workers, new entrants or incumbent entrepreneurs) yields the following aggregate demand:
+
+\begin{eqnarray}
+D(\cdot )_{t} &=&\frac{\Omega (R_{t})}{P_{t}}\{A_{t}+((1+r_{t})(1+\iota
+)^{-1}\sum_{i=0}^{\infty }[(1+E\left( r_{t+i}\right) (1+\iota )]^{-i}\cdot 
+\notag \\
+&&\cdot E(n_{t+i}(W_{t+i}+h_{t+i}^{e}\Pi _{t+i}^{e}+h_{t+i}^{in}\Pi
+_{t+i}^{in}))\}  \label{per capita distrib cons_1}
+\end{eqnarray}
+
+\small
+
+$\Pi_{t+i}^{in}$ and $\Pi _{t+i}^{e}$ are the nominal profits of the incumbent and new entrants entrepreneurs;
+
+$r_{t}$ is  the real interest rate at time $t$; $R_{t}$ is the nominal interest rate on the financial asset at time $t$ (controlled by the central bank); $\iota$ is the <<core>> inflation rate, assumed to be constant under a given monetary policy regime;
+
+$W_{t+i}$ the nominal wage at time $t+i$; $n_{t+i}$ the total number of employed individuals at time $t+i$,
+
+$h_{t+i}^{in}$ and $h_{t+i}^{e}$ the portion of incumbent entrepreneurs and new entrant over the total labor force;
+
+$Pi _{t+i}$ the price level emerging in the oligopolistic industrial sector (which is also the aggregate price level since we have an indifferentiated good);
+
+$\Omega_{t+i}$ a monotonically increasing function in the nominal interest rate.
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Output of each firm}
+
+\end{frame}
 
 
 

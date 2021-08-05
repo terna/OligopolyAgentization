@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  5 AUG 2021 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  5 AUG 2021 22:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -947,16 +947,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2]
-(./PietroTerna_OligopolyAgentiziation.toc) [3
+) [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<cover.png, id=134, 526.46687pt x 667.49374pt>
+(./PietroTerna_OligopolyAgentiziation.toc) [2
+
+]
+<cover.png, id=112, 526.46687pt x 667.49374pt>
 File: cover.png Graphic file (type png)
 <use cover.png>
 Package pdftex.def Info: cover.png  used on input line 143.
@@ -966,9 +963,13 @@ Overfull \hbox (8.70233pt too wide) in paragraph at lines 143--143
 [][]  
  []
 
-[4
+[3
 
- <./cover.png>] [5
+ <./cover.png>] [4
+
+] [5
+
+] [6
 
 ]
 \tf@nav=\write6
@@ -980,33 +981,40 @@ Overfull \hbox (8.70233pt too wide) in paragraph at lines 143--143
 \tf@snm=\write8
 \openout8 = `PietroTerna_OligopolyAgentiziation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
  (./PietroTerna_OligopolyAgentiziation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `PietroTerna_OligopolyAgentiziation.out' has 
 not changed.
-(rerunfilecheck)             Checksum: 5CF0BC2A4A126C6A137E1DCE05CDB6C1;290.
+(rerunfilecheck)             Checksum: 7FDC3892695B4386766C4C90D7E18DE6;290.
  ) 
 Here is how much of TeX's memory you used:
- 19992 strings out of 480608
- 378901 string characters out of 5903631
- 644133 words of memory out of 5000000
- 35365 multiletter control sequences out of 15000+600000
- 564636 words of font info for 60 fonts, out of 8000000 for 9000
+ 20026 strings out of 480608
+ 379522 string characters out of 5903631
+ 646172 words of memory out of 5000000
+ 35391 multiletter control sequences out of 15000+600000
+ 569027 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,801b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/tex
-live/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/
-texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PietroTerna_OligopolyAgentiziation.pdf (5 pages, 1982795 byte
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
+texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on PietroTerna_OligopolyAgentiziation.pdf (6 pages, 2040337 byte
 s).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 18 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
