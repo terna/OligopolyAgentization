@@ -1,0 +1,123 @@
+\documentclass[9pt]{beamer}
+
+
+\mode<presentation>
+{
+\usetheme{Singapore} %use default if problems or  Singapore or 
+  % or ... https://deic-web.uab.cat/~iblanes/beamer_gallery/index_by_theme.html
+\usefonttheme{serif}  
+}
+\setbeamertemplate{footline}[frame number]
+\usepackage{booktabs}
+\usepackage{color}
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+\usepackage[super]{nth}
+\usepackage{xcolor}
+\usepackage{relsize} %large math 
+
+\usepackage{graphicx} % to insert the logo
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+\usepackage[font=scriptsize,skip=1pt]{caption}
+
+\setbeamertemplate{caption}[numbered]
+
+\title [Oligopolistic ABM] % (optional, use only with long paper titles)
+{From a theoretical oligopolistic model to a generative agent-based simulation}
+
+\author[] % (optional, use only with lots of authors)
+{P.~\href{https://terna.to.it}{Terna}\inst{1~2} \and M.~Mazzoli\inst{3} \and M.~Morini\inst{4~5}  }
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+
+\institute[] % (optional, but mostly needed)
+{
+  \inst{1}%
+ University of Torino, Italy
+  \and
+ \inst{2}%
+  Fondazione Collegio Carlo Alberto, Honorary Fellow, Italy
+ \and
+  \inst{3}%
+ University of Genova, Italy 
+  \and
+  \inst{4}%
+  Credimi S.p.A., Milano, Italy
+  \and
+  \inst{5}%
+ Ronin Institute, Montclair, New Jersey, US
+  }
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[] % (optional, should be abbreviation of conference name)
+{\href{http://proteusfoundationseries.org/event/first-international-workshop-on-agentization-rendering-conventional-models-with-agent-based-computing/}{Agentization}---September 15-17, 2021}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+
+\titlepage
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Outline}
+
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The model}
+
+\subsection{Introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Introduction}
+
+\begin{itemize}
+
+\item
+A micro-based model of interacting agents, following plausible behavioral rules into a world where the Covid-19 epidemic is affecting the actions of everyone. 
+\item
+The model works with: 
+
+\begin{enumerate}[i]
+\item infected agents categorized as symptomatic or asymptomatic and 
+\item the places of contagion specified in a detailed way, thanks to agent-based modeling capabilities. 
+\end{enumerate}
+
+ \item
+The \textcolor{red}{infection transmission} is related to three factors: the infected person's characteristics and those of the susceptible one, plus those of the space in which a contact occurs.
+
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{plainnatmm}
+\bibliography{bibliografiaGenerale}
+
+
+\end{document}
