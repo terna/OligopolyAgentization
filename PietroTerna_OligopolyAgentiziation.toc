@@ -3,3 +3,5 @@
 \beamer@subsectionintoc {1}{1}{Starting questions}{3}{0}{1}
 \beamer@sectionintoc {2}{Theoretical analysis}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{Main assumptions}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Outputs and aggregate demand}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Equilibrium in the market}{7}{0}{2}

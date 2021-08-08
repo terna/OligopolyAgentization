@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  6 AUG 2021 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  8 AUG 2021 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -953,7 +953,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./PietroTerna_OligopolyAgentiziation.toc) [2
 
 ]
-<cover.png, id=112, 526.46687pt x 667.49374pt>
+<cover.png, id=130, 526.46687pt x 667.49374pt>
 File: cover.png Graphic file (type png)
 <use cover.png>
 Package pdftex.def Info: cover.png  used on input line 143.
@@ -971,6 +971,10 @@ Overfull \hbox (8.70233pt too wide) in paragraph at lines 143--143
 
 ] [6
 
+] [7
+
+] [8
+
 ]
 \tf@nav=\write6
 \openout6 = `PietroTerna_OligopolyAgentiziation.nav'.
@@ -981,23 +985,23 @@ Overfull \hbox (8.70233pt too wide) in paragraph at lines 143--143
 \tf@snm=\write8
 \openout8 = `PietroTerna_OligopolyAgentiziation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (./PietroTerna_OligopolyAgentiziation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 Package rerunfilecheck Info: File `PietroTerna_OligopolyAgentiziation.out' has 
 not changed.
-(rerunfilecheck)             Checksum: 7FDC3892695B4386766C4C90D7E18DE6;290.
+(rerunfilecheck)             Checksum: B500131C4523EEFA77AB19E0ECAF9E80;441.
  ) 
 Here is how much of TeX's memory you used:
- 20026 strings out of 480608
- 379522 string characters out of 5903631
- 646172 words of memory out of 5000000
- 35391 multiletter control sequences out of 15000+600000
- 569027 words of font info for 68 fonts, out of 8000000 for 9000
+ 20071 strings out of 480608
+ 380539 string characters out of 5903631
+ 647184 words of memory out of 5000000
+ 35429 multiletter control sequences out of 15000+600000
+ 571830 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,19n,67p,801b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,19n,67p,801b,803s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/loca
 l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/
@@ -1007,15 +1011,16 @@ ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fon
-ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on PietroTerna_OligopolyAgentiziation.pdf (6 pages, 2050080 byte
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on PietroTerna_OligopolyAgentiziation.pdf (8 pages, 2065309 byte
 s).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 18 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
