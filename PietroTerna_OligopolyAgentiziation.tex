@@ -143,8 +143,8 @@ Mazzoli, M., Morini, M., and Terna, P. 2019. \emph{Rethinking Macroeconomics wit
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Theoretical analysis}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Main assumptions}
@@ -301,5 +301,141 @@ Osborne, M., and Rubinstein, A. 1994. A Course in Game Theory. \emph{MIT press}.
 
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Entry exit}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{New entrants}
+
+If the new entrant at time $t$ is successful, her expected stream of future
+real income, from time $t+1$ onwards is
+
+\begin{equation}
+\begin{aligned}
+J_{t+1} = & \frac{1}{1+\rho }\{[\Pr (\Pi ^{inR}\geq 0)][E_{t}(\Pi
+_{t+1}^{inR})+E_{t}(w_{t+1})-\tau _{R}+J_{t+2}]+ \\
+& +[1-\Pr (\Pi ^{inR} \geq 0)][\tau _{R}\cdot n_{t+1}\left( l-n_{t+1}\right)
+^{-1}+\Upsilon _{t+2}]\}
+\end{aligned}
+\end{equation}
+
+$\Upsilon _{t+1}$ positively depends on the probability of being hired as
+a worker by a firm the next period, and negatively on the number of
+unemployed individuals; therefore the term $\{1-\Pr (\Pi _{t}^{eR}\geq
+0)]\}(1+\rho )^{-1}\cdot E_{t-1}[(\tau \cdot n_{t}\left( l-n_{t}\right)
+^{-1}+\Upsilon _{t+2}]$ is the expected future stream of income for the
+unsuccessful entrant from time $t$ onwards, weighted with the probability of
+going bankrupt in the first period.
+
+\bigskip
+\footnotesize
+$\rho$ is the subjective rate of intertemporal preference;
+
+$w_{t+1}$ the real wage at time $t+1$;
+
+$\Upsilon _{t+2}$ is the expected net present value of the future income for the unemployed individuals at time $t+2$;
+
+$\tau _{R}$ the lump sum tax in real terms; 
+ 
+ $l$ the total labor force; 
+ 
+ $\Pr (\Pi ^{inR}\geq 0$ the probability of survival of the incumbents, assumed to be a constant reflecting the probability of the incumbents to collude.
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Prediction mistakes}
+
+\small
+The entrepreneurs can be incumbent, earning at time $t+i$ the incumbent
+nominal profits $\Pi _{t+i}^{in}$ ($\Pi _{t+i}^{inR}$ in real terms) or new
+entrants, earning the new entrant nominal profits $\Pi _{t+i}^{e}$ ($\Pi
+_{t+i}^{eR}$ in real terms$).$ $\Pi _{t+i}^{e}$, in general, diverges from $%
+\Pi _{t+i}^{in}$ because the new entrants bear some entry costs.
+
+\bigskip
+\normalsize
+For given average market expectations $E_{t}(\Pi _{t+1}^{eR})$ and $%
+E_{t}(\Pi _{t+1}^{inR})$, when the variance of the distributions of these
+two variables increases, we have a higher frequency of prediction mistakes.
+We can summarize and simplify that by the following equation
+
+\begin{equation}
+\Pr (\text{entry})_{t}=\beta (var(\Psi _{t}))
+\end{equation}
+
+\bigskip
+\small
+Where $\Psi _{t})$ is a shift parameter in the aggregate demand curve, depending on exogenous variables and parameters. The more frequent are the shifts in the aggregate demand, the more common the stochastic prediction mistakes by potential new entrants, although, on average, the expectations are correct and Rational Expectations apply. 
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Wages}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Wages}
+
+The nominal wage (set by the oligopolistic firms) depends on whether the economy is in full employment ($n=l$) or not ($n<l$), in which case, the firms set the nominal wage to the level $w_{t}^{fu}$, discouraging, on average, entry. The new entrants are the workers with a positive (and optimistic) information shock.
+
+\begin{equation}
+W_{t}=
+\begin{cases}
+w_{t}^{\ast} & n<l \\
+w_{t}^{fu} & n=l
+\end{cases}
+\label{wage general determination}
+\end{equation}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Generative agent-based simulation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{A premise}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Premise}
+
+In our model, the agent-based technique allows us to emphasize the role of strategic interaction among oligopolistic firms, as the consequence of subjective decision making, formalizing in the most appropriate way the implication and results of these decisions. 
+
+\begin{itemize}
+
+\item[$\diamond$] We produce all the actions and reactions designed by the model equations via the behavior of heterogeneous agents actually acting in the simulated time. 
+
+\item[$\diamond$] We remark that between (a) the formal presentation of the model in the equation based way, strictly necessary to be consistent with the literature upon which our work is grounded, and (b) the agent-based implementation, the consistency is deeply satisfied, but with a few inevitable distinctions. 
+
+\item[$\diamond$] The same kind of differences that we run up against when we compare (a) the formalization of a phenomenon and (b) the related observation of the reality (here: an artificial one, simulated).
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Simulation tool}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Swarm-Like Agent Protocol in Python (SLAPP)}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Outline of the simulation model}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Outline}
+
+\begin{figure}[H]
+\center
+\fbox{\includegraphics[width=0.85\textwidth]{OligopolyOutline.png}}
+\caption{Simulation outline}
+\label{outline}
+\end{figure}
+
+
+\end{frame}
 
 \end{document}

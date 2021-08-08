@@ -5,3 +5,9 @@
 \beamer@subsectionintoc {2}{1}{Main assumptions}{4}{0}{2}
 \beamer@subsectionintoc {2}{2}{Outputs and aggregate demand}{5}{0}{2}
 \beamer@subsectionintoc {2}{3}{Equilibrium in the market}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{Entry exit}{9}{0}{2}
+\beamer@subsectionintoc {2}{5}{Wages}{11}{0}{2}
+\beamer@sectionintoc {3}{Generative agent-based simulation}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{A premise}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Simulation tool}{13}{0}{3}
+\beamer@subsectionintoc {3}{3}{Outline of the simulation model}{14}{0}{3}
