@@ -34,27 +34,29 @@
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\slideentry {2}{4}{2}{10/10}{Entry exit}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@subsectionpages {9}{10}}
-\headcommand {\beamer@subsectionentry {0}{2}{5}{11}{Wages}}
-\headcommand {\slideentry {2}{5}{1}{11/11}{Wages}{0}}
+\headcommand {\slideentry {2}{4}{3}{11/11}{Entry exit}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@sectionpages {4}{11}}
-\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\sectionentry {3}{Generative agent-based simulation}{12}{Generative agent-based simulation}{0}}
-\headcommand {\beamer@subsectionpages {12}{11}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{12}{A premise to the simulation side of the presentation}}
-\headcommand {\slideentry {3}{1}{1}{12/12}{A premise to the simulation side of the presentation}{0}}
+\headcommand {\beamer@subsectionpages {9}{11}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{12}{Wages}}
+\headcommand {\slideentry {2}{5}{1}{12/12}{Wages}{0}}
 \headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@sectionpages {4}{12}}
 \headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{13}{Simulation tool}}
-\headcommand {\slideentry {3}{2}{1}{13/13}{Simulation tool}{0}}
+\headcommand {\sectionentry {3}{Generative agent-based simulation}{13}{Generative agent-based simulation}{0}}
+\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{13}{A premise to the simulation side of the presentation}}
+\headcommand {\slideentry {3}{1}{1}{13/13}{A premise to the simulation side of the presentation}{0}}
 \headcommand {\beamer@framepages {13}{13}}
 \headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{14}{Outline of the simulation model}}
-\headcommand {\slideentry {3}{3}{1}{14/14}{Outline of the simulation model}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{14}{Simulation tool}}
+\headcommand {\slideentry {3}{2}{1}{14/14}{Simulation tool}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@partpages {1}{14}}
 \headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\beamer@sectionpages {12}{14}}
-\headcommand {\beamer@documentpages {14}}
-\headcommand {\gdef \inserttotalframenumber {14}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{15}{Outline of the simulation model}}
+\headcommand {\slideentry {3}{3}{1}{15/15}{Outline of the simulation model}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@partpages {1}{15}}
+\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\beamer@sectionpages {13}{15}}
+\headcommand {\beamer@documentpages {15}}
+\headcommand {\gdef \inserttotalframenumber {15}}
