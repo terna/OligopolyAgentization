@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  10 AUG 2021 09:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  10 AUG 2021 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1002,6 +1002,19 @@ Overfull \vbox (0.84367pt too high) detected at line 453
  <./OligopolyOutline.png>] [16
 
 ]
+<OligopolyOutline1.png, id=801, 1988.42876pt x 1403.2425pt>
+File: OligopolyOutline1.png Graphic file (type png)
+<use OligopolyOutline1.png>
+Package pdftex.def Info: OligopolyOutline1.png  used on input line 499.
+(pdftex.def)             Requested size: 215.10196pt x 151.78773pt.
+pdfTeX warning (ext4): destination with the same identifier (name{outline}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.499 \end{frame}
+                  [17
+
+ <./OligopolyOutline1.png>]
 \tf@nav=\write6
 \openout6 = `PietroTerna_OligopolyAgentiziation.nav'.
 
@@ -1011,20 +1024,32 @@ Overfull \vbox (0.84367pt too high) detected at line 453
 \tf@snm=\write8
 \openout8 = `PietroTerna_OligopolyAgentiziation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 466.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 466.
- (./PietroTerna_OligopolyAgentiziation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 466.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 466.
-Package rerunfilecheck Info: File `PietroTerna_OligopolyAgentiziation.out' has 
-not changed.
-(rerunfilecheck)             Checksum: AFE5073DF419AE3EFED26EF167FFC1FE;874.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 502.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 502.
+
+(./PietroTerna_OligopolyAgentiziation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 502.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 502.
+
+
+Package rerunfilecheck Warning: File `PietroTerna_OligopolyAgentiziation.out' h
+as changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `PietroTerna_OligopolyAgentiziation.
+out':
+(rerunfilecheck)             Before: AFE5073DF419AE3EFED26EF167FFC1FE;874
+(rerunfilecheck)             After:  8B51C16226A3ABAE1E66C3E558F8BBA6;941.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 20171 strings out of 480608
- 382061 string characters out of 5903631
+ 20182 strings out of 480608
+ 382272 string characters out of 5903631
  650259 words of memory out of 5000000
- 35502 multiletter control sequences out of 15000+600000
+ 35509 multiletter control sequences out of 15000+600000
  578046 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,801b,803s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1046,11 +1071,11 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on PietroTerna_OligopolyAgentiziation.pdf (16 pages, 2679106 byt
+Output written on PietroTerna_OligopolyAgentiziation.pdf (17 pages, 3265881 byt
 es).
 PDF statistics:
- 869 PDF objects out of 1000 (max. 8388607)
- 798 compressed objects within 8 object streams
- 48 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 841 compressed objects within 9 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
