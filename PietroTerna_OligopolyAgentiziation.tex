@@ -502,43 +502,52 @@ R. Axelrod. Advancing the Art of Simulation in the Social Sciences. In R. Conte,
 \subsection{Simulation steps}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: outputs}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
 \begin{block}{}
 % Your text here
 
-a
+\begin{itemize}
+
+\item[$\diamond$] The method \verb|adaptProductionPlan|, sent to \verb"entrepreneurs", orders to the $i^{th}$ firm to set its production plan, for the current period, to their (equal, being $i$ here not relevant) fraction of the total demand of the previous period, in value, plus a random uniform relative correction in the interval $-\varepsilon$ to $+\varepsilon$.
+
+\item[$\diamond$] The total demand of the previous period can be replaced by a weighted sum of values at $t-1$ and $t-2$.
+
+\end{itemize}
      
 \end{block}
 \end{column}
 
  \begin{column}{.3\textwidth}
+\vspace{-6\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline1.png}}
+ 
   \end{block}
   \end{column}
-    
+ 
 \end{columns}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: hire / fire}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
 \begin{block}{}
 % Your text here
 
-a
+The method \verb"hireFireWithProduction", orders to the \verb"entrepreneurs" to hire or fire comparing their actual labor force with that required for the production plan, considering the labor productivity  $\pi$.
      
 \end{block}
 \end{column}
 
  \begin{column}{.3\textwidth}
+ \vspace{-8.3\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline2.png}}
@@ -563,6 +572,7 @@ a
 \end{column}
 
  \begin{column}{.3\textwidth}
+ \vspace{-5\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline3.png}}
@@ -587,6 +597,7 @@ a
 \end{column}
 
  \begin{column}{.3\textwidth}
+ \vspace{-5\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline4.png}}
@@ -611,6 +622,7 @@ a
 \end{column}
 
  \begin{column}{.3\textwidth}
+ \vspace{-5\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline4b.png}}
@@ -635,6 +647,7 @@ a
 \end{column}
 
  \begin{column}{.3\textwidth}
+ \vspace{-5\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline5.png}}
@@ -659,6 +672,7 @@ a
 \end{column}
 
  \begin{column}{.3\textwidth}
+ \vspace{-5\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline6.png}}
@@ -683,6 +697,7 @@ a
 \end{column}
 
  \begin{column}{.3\textwidth}
+ \vspace{-5\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline7.png}}
@@ -707,6 +722,7 @@ a
 \end{column}
 
  \begin{column}{.3\textwidth}
+ \vspace{-5\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline8.png}}

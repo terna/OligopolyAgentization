@@ -1,0 +1,22 @@
+\frametitle{Simulation steps: hire / fire}
+
+\begin{columns}[T]
+\begin{column}{.7\textwidth}
+\begin{block}{}
+% Your text here
+
+The method \verb"hireFireWithProduction", orders to the \verb"entrepreneurs" to hire or fire comparing their actual labor force with that required for the production plan, considering the labor productivity  $\pi$.
+
+\end{block}
+\end{column}
+
+ \begin{column}{.3\textwidth}
+ \vspace{-8.3\baselineskip}
+ \begin{block}{}
+% Your image included here
+ \fbox{\includegraphics[scale=0.05]{OligopolyOutline2.png}}
+  \end{block}
+  \end{column}
+
+\end{columns}
+
