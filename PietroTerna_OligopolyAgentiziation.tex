@@ -91,7 +91,7 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{A book on \emph{Rethinking Macroeconomics with Endogenous Market Structure}}
+\section{A book on \emph{Rethinking Macroeconomics}}
 
 \subsection{Starting questions}
 
@@ -541,13 +541,17 @@ R. Axelrod. Advancing the Art of Simulation in the Social Sciences. In R. Conte,
 \begin{block}{}
 % Your text here
 
-The method \verb"hireFireWithProduction", orders to the \verb"entrepreneurs" to hire or fire comparing their actual labor force with that required for the production plan, considering the labor productivity  $\pi$.
+\begin{itemize}
+
+\item[$\diamond$] The method \verb"hireFireWithProduction", orders to the \verb"entrepreneurs" to hire or fire comparing their actual labor force with that required for the production plan, considering the labor productivity  $\pi$.
+
+\end{itemize}
      
 \end{block}
 \end{column}
 
  \begin{column}{.3\textwidth}
- \vspace{-8.3\baselineskip}
+ \vspace{-8.05\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline2.png}}
@@ -559,20 +563,28 @@ The method \verb"hireFireWithProduction", orders to the \verb"entrepreneurs" to 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: produce}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
 \begin{block}{}
 % Your text here
 
-a
+\begin{itemize}
+
+\item[$\diamond$] The method (or command) \verb"produce" sent to the \verb"entrepreneurs" orders them---in a deterministic way, in each unit of time or cycle---to produce proportionally to their labour force $L^i_t$ . 
+
+\item[$\diamond$] The labor productivity, with its value set to $1$,  does not change with $t$. 
+
+\item[$\diamond$] The production is corrected for work troubles, if any.
      
+ \end{itemize}
+ 
 \end{block}
 \end{column}
 
  \begin{column}{.3\textwidth}
- \vspace{-5\baselineskip}
+ \vspace{-6.65\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline3.png}}
@@ -584,20 +596,42 @@ a
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: consumptions\\(1/3)}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
 \begin{block}{}
 % Your text here
 
-a
+\begin{itemize}
+
+\item[$\diamond$] The method \verb"planConsumptionInValue" orders both to the \verb"workers" or to the \verb"entrepreneurs", to plan the consumptions in value for the current cycle and its sub-steps.
+
+\item[$\diamond$] Consumption behavior of the agent $i$ at time $t$ is defined as:
+
+\begin{equation}
+C_{i,t} = a_k + b_k Y_{i,t} + u_{i,t}
+\end{equation}
+
+with $u_{i,t}$ from $u\sim\mathcal{N}(0,sd)$.
+
+\item[$\diamond$] The individual $i$ can be:
+\begin{enumerate}
+\item
+an entrepreneur, with $Y_{i,t} = profit_{i,t-1}+wage$; 
+\item 
+an employed worker, with $Y_{i,t} = wage$; 
+\item
+an unemployed workers, with $Y_{i,t} = socialWelfareCompensation$.
+\end{enumerate}
+
+\end{itemize}
      
 \end{block}
 \end{column}
 
  \begin{column}{.3\textwidth}
- \vspace{-5\baselineskip}
+ \vspace{-4.55\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline4.png}}
@@ -609,20 +643,31 @@ a
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: consumptions\\(2/3)}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
 \begin{block}{}
 % Your text here
 
-a
-     
+
+\begin{itemize}
+
+\item[$\diamond$] The method \verb"actOnMarketPlace" operates only in the ASHAM (Atomistic Simplified HAyekian Market) phase of each run, in any.
+
+\item[$\diamond$] Both the \verb|entrepreneurs| and the \verb|workers| are \emph{buyers}, while  the \emph{sellers} are uniquely the  \verb|entrepreneurs|.
+
+\item[$\diamond$] The method is repeating its action several times in each cycle, for each sub-step; each buyer chooses a seller from a temporary list of sellers having still unsold products.
+
+\item[$\diamond$]  The deal between buyers and sellers is based on reservation price confrontation; reservation prices are corrected following successful and unsuccessful negotiations..
+
+\end{itemize}
+
 \end{block}
 \end{column}
 
  \begin{column}{.3\textwidth}
- \vspace{-5\baselineskip}
+ \vspace{-4.35\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline4b.png}}
@@ -633,21 +678,31 @@ a
 
 \end{frame}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: market price\\(3/3)}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
 \begin{block}{}
 % Your text here
 
-a
-     
+\begin{itemize}
+
+\item[$\diamond$] The method \verb"setMarketPrice" orders to the abstract agent \verb"WorldState" to evaluate the market clearing prices in a SMAC (Simple Market Aggregate Clearing mechanism) situation or simply to record the mean and the standard deviation of the prices in each cycle of an ASHAM. 
+
+
+\item[$\diamond$] In agent-based model, usually the agents are mimicking an actual subject existing in the reality; in this case, we have an abstract agent making computations both (i) relevant from a theoretical economic point of view or (ii) simply accounting statistical data.
+
+\item[$\diamond$] In the SMAC case the method evaluates the market clearing price, considering the aggregate agent behavior plus \emph{an external shock, potentially large}.
+
+\end{itemize}
+
 \end{block}
 \end{column}
 
  \begin{column}{.3\textwidth}
- \vspace{-5\baselineskip}
+ \vspace{-4.05\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline5.png}}
@@ -659,7 +714,7 @@ a
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: profits}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
@@ -684,7 +739,7 @@ a
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: entry-exit}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
@@ -709,7 +764,7 @@ a
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Simulation steps: outputs}
+\begin{frame}[fragile]{Simulation steps: wages}
 
 \begin{columns}[T]
 \begin{column}{.7\textwidth}
@@ -730,6 +785,23 @@ a
   \end{column}
     
 \end{columns}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{A synopsis of the results}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Economic cycles}
+
+a
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Counter cyclical mark-up}
+
+a
 
 \end{frame}
 

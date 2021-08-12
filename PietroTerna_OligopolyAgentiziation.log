@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  12 AUG 2021 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  12 AUG 2021 23:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -953,7 +953,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./PietroTerna_OligopolyAgentiziation.toc) [2
 
 ]
-<cover.png, id=237, 526.46687pt x 667.49374pt>
+<cover.png, id=250, 526.46687pt x 667.49374pt>
 File: cover.png Graphic file (type png)
 <use cover.png>
 Package pdftex.def Info: cover.png  used on input line 141.
@@ -992,7 +992,7 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 45
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-<SLAPP.png, id=816, 973.6375pt x 597.23125pt>
+<SLAPP.png, id=851, 973.6375pt x 597.23125pt>
 File: SLAPP.png Graphic file (type png)
 <use SLAPP.png>
 Package pdftex.def Info: SLAPP.png  used on input line 450.
@@ -1000,7 +1000,7 @@ Package pdftex.def Info: SLAPP.png  used on input line 450.
  [14
 
  <./SLAPP.png>]
-<OligopolyOutline.png, id=870, 1988.42876pt x 1403.2425pt>
+<OligopolyOutline.png, id=907, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline.png Graphic file (type png)
 <use OligopolyOutline.png>
 Package pdftex.def Info: OligopolyOutline.png  used on input line 466.
@@ -1017,7 +1017,7 @@ Overfull \vbox (0.84367pt too high) detected at line 466
 \openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
 
  (./PietroTerna_OligopolyAgentiziation.vrb
-<OligopolyOutline1.png, id=974, 1988.42876pt x 1403.2425pt>
+<OligopolyOutline1.png, id=1015, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline1.png Graphic file (type png)
 <use OligopolyOutline1.png>
 Package pdftex.def Info: OligopolyOutline1.png  used on input line 23.
@@ -1033,110 +1033,135 @@ Overfull \hbox (14.03935pt too wide) in paragraph at lines 23--24
 \openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
 
  (./PietroTerna_OligopolyAgentiziation.vrb
-<OligopolyOutline2.png, id=1027, 1988.42876pt x 1403.2425pt>
+<OligopolyOutline2.png, id=1070, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline2.png Graphic file (type png)
 <use OligopolyOutline2.png>
-Package pdftex.def Info: OligopolyOutline2.png  used on input line 17.
+Package pdftex.def Info: OligopolyOutline2.png  used on input line 21.
 (pdftex.def)             Requested size: 99.42726pt x 70.16623pt.
 
-Overfull \hbox (14.03935pt too wide) in paragraph at lines 17--18
+Overfull \hbox (14.03935pt too wide) in paragraph at lines 21--22
 [][]  
  []
 
 ) [18
 
  <./OligopolyOutline2.png>]
-<OligopolyOutline3.png, id=1079, 1988.42876pt x 1403.2425pt>
+\openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
+
+ (./PietroTerna_OligopolyAgentiziation.vrb
+<OligopolyOutline3.png, id=1125, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline3.png Graphic file (type png)
 <use OligopolyOutline3.png>
-Package pdftex.def Info: OligopolyOutline3.png  used on input line 584.
+Package pdftex.def Info: OligopolyOutline3.png  used on input line 25.
 (pdftex.def)             Requested size: 99.42726pt x 70.16623pt.
 
-Overfull \hbox (14.03935pt too wide) in paragraph at lines 584--584
+Overfull \hbox (14.03935pt too wide) in paragraph at lines 25--26
 [][]  
  []
 
-[19
+) [19
 
  <./OligopolyOutline3.png>]
-<OligopolyOutline4.png, id=1133, 1988.42876pt x 1403.2425pt>
+\openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
+
+ (./PietroTerna_OligopolyAgentiziation.vrb
+<OligopolyOutline4.png, id=1180, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline4.png Graphic file (type png)
 <use OligopolyOutline4.png>
-Package pdftex.def Info: OligopolyOutline4.png  used on input line 609.
+Package pdftex.def Info: OligopolyOutline4.png  used on input line 39.
 (pdftex.def)             Requested size: 99.42726pt x 70.16623pt.
 
-Overfull \hbox (14.03935pt too wide) in paragraph at lines 609--609
+Overfull \hbox (14.03935pt too wide) in paragraph at lines 39--40
 [][]  
  []
 
-[20
+) [20
 
  <./OligopolyOutline4.png>]
-<OligopolyOutline4b.png, id=1185, 1988.42876pt x 1403.2425pt>
+\openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
+
+ (./PietroTerna_OligopolyAgentiziation.vrb
+<OligopolyOutline4b.png, id=1235, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline4b.png Graphic file (type png)
 <use OligopolyOutline4b.png>
-Package pdftex.def Info: OligopolyOutline4b.png  used on input line 634.
+Package pdftex.def Info: OligopolyOutline4b.png  used on input line 28.
 (pdftex.def)             Requested size: 99.42726pt x 70.16623pt.
 
-Overfull \hbox (14.03935pt too wide) in paragraph at lines 634--634
+Overfull \hbox (14.03935pt too wide) in paragraph at lines 28--29
 [][]  
  []
 
-[21
+) [21
 
  <./OligopolyOutline4b.png>]
-<OligopolyOutline5.png, id=1238, 1988.42876pt x 1403.2425pt>
+\openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
+
+ (./PietroTerna_OligopolyAgentiziation.vrb
+<OligopolyOutline5.png, id=1289, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline5.png Graphic file (type png)
 <use OligopolyOutline5.png>
-Package pdftex.def Info: OligopolyOutline5.png  used on input line 659.
+Package pdftex.def Info: OligopolyOutline5.png  used on input line 26.
 (pdftex.def)             Requested size: 99.42726pt x 70.16623pt.
 
-Overfull \hbox (14.03935pt too wide) in paragraph at lines 659--659
+Overfull \hbox (14.03935pt too wide) in paragraph at lines 26--27
 [][]  
  []
 
-[22
+) [22
 
  <./OligopolyOutline5.png>]
-<OligopolyOutline6.png, id=1290, 1988.42876pt x 1403.2425pt>
+\openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
+
+ (./PietroTerna_OligopolyAgentiziation.vrb
+<OligopolyOutline6.png, id=1344, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline6.png Graphic file (type png)
 <use OligopolyOutline6.png>
-Package pdftex.def Info: OligopolyOutline6.png  used on input line 684.
+Package pdftex.def Info: OligopolyOutline6.png  used on input line 17.
 (pdftex.def)             Requested size: 99.42726pt x 70.16623pt.
 
-Overfull \hbox (14.03935pt too wide) in paragraph at lines 684--684
+Overfull \hbox (14.03935pt too wide) in paragraph at lines 17--18
 [][]  
  []
 
-[23
+) [23
 
  <./OligopolyOutline6.png>]
-<OligopolyOutline7.png, id=1343, 1988.42876pt x 1403.2425pt>
+\openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
+
+ (./PietroTerna_OligopolyAgentiziation.vrb
+<OligopolyOutline7.png, id=1398, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline7.png Graphic file (type png)
 <use OligopolyOutline7.png>
-Package pdftex.def Info: OligopolyOutline7.png  used on input line 709.
+Package pdftex.def Info: OligopolyOutline7.png  used on input line 17.
 (pdftex.def)             Requested size: 99.42726pt x 70.16623pt.
 
-Overfull \hbox (14.03935pt too wide) in paragraph at lines 709--709
+Overfull \hbox (14.03935pt too wide) in paragraph at lines 17--18
 [][]  
  []
 
-[24
+) [24
 
  <./OligopolyOutline7.png>]
-<OligopolyOutline8.png, id=1395, 1988.42876pt x 1403.2425pt>
+\openout4 = `PietroTerna_OligopolyAgentiziation.vrb'.
+
+ (./PietroTerna_OligopolyAgentiziation.vrb
+<OligopolyOutline8.png, id=1453, 1988.42876pt x 1403.2425pt>
 File: OligopolyOutline8.png Graphic file (type png)
 <use OligopolyOutline8.png>
-Package pdftex.def Info: OligopolyOutline8.png  used on input line 734.
+Package pdftex.def Info: OligopolyOutline8.png  used on input line 17.
 (pdftex.def)             Requested size: 99.42726pt x 70.16623pt.
 
-Overfull \hbox (14.03935pt too wide) in paragraph at lines 734--734
+Overfull \hbox (14.03935pt too wide) in paragraph at lines 17--18
 [][]  
  []
 
-[25
+) [25
 
- <./OligopolyOutline8.png>]
+ <./OligopolyOutline8.png>] [26
+
+] [27
+
+]
 \tf@nav=\write6
 \openout6 = `PietroTerna_OligopolyAgentiziation.nav'.
 
@@ -1146,23 +1171,24 @@ Overfull \hbox (14.03935pt too wide) in paragraph at lines 734--734
 \tf@snm=\write8
 \openout8 = `PietroTerna_OligopolyAgentiziation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 737.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 737.
- (./PietroTerna_OligopolyAgentiziation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 737.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 737.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 809.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 809.
+
+(./PietroTerna_OligopolyAgentiziation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 809.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 809.
 Package rerunfilecheck Info: File `PietroTerna_OligopolyAgentiziation.out' has 
 not changed.
-(rerunfilecheck)             Checksum: 8B51C16226A3ABAE1E66C3E558F8BBA6;941.
+(rerunfilecheck)             Checksum: B5849496E261B7167547E68307B3048D;984.
  ) 
 Here is how much of TeX's memory you used:
- 20312 strings out of 480608
- 384535 string characters out of 5903631
- 658028 words of memory out of 5000000
- 35604 multiletter control sequences out of 15000+600000
+ 20348 strings out of 480608
+ 385498 string characters out of 5903631
+ 660499 words of memory out of 5000000
+ 35621 multiletter control sequences out of 15000+600000
  575864 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,19n,67p,801b,803s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,19n,67p,801b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/loca
 l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/
@@ -1182,11 +1208,11 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts
 rw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on PietroTerna_OligopolyAgentiziation.pdf (25 pages, 8095043 byt
+Output written on PietroTerna_OligopolyAgentiziation.pdf (27 pages, 8106914 byt
 es).
 PDF statistics:
- 1525 PDF objects out of 1728 (max. 8388607)
- 1408 compressed objects within 15 object streams
- 68 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1691 PDF objects out of 1728 (max. 8388607)
+ 1569 compressed objects within 16 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
