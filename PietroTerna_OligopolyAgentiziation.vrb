@@ -5,18 +5,17 @@
 \begin{block}{}
 % Your text here
 
-memo
 
 \begin{itemize}
-\item wage rise due both to full employment and
-\item to the creation of barriers against new entrants.
+\item[$\diamond$] Wages (temporary) rise due both to full employment and
+\item[$\diamond$] to the creation of barriers against new entrants.
 \end{itemize}
 
 \end{block}
 \end{column}
 
  \begin{column}{.3\textwidth}
- \vspace{-5\baselineskip}
+ \vspace{-8.38\baselineskip}
  \begin{block}{}
 % Your image included here
  \fbox{\includegraphics[scale=0.05]{OligopolyOutline8.png}}
