@@ -5,7 +5,12 @@
 \begin{block}{}
 % Your text here
 
-a
+memo
+
+\begin{itemize}
+\item wage rise due both to full employment and
+\item to the creation of barriers against new entrants.
+\end{itemize}
 
 \end{block}
 \end{column}
