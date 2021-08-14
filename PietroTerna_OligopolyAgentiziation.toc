@@ -12,4 +12,4 @@
 \beamer@subsectionintoc {3}{2}{Simulation tool}{14}{0}{3}
 \beamer@subsectionintoc {3}{3}{Outline of the simulation model}{15}{0}{3}
 \beamer@subsectionintoc {3}{4}{Simulation steps}{17}{0}{3}
-\beamer@subsectionintoc {3}{5}{A synopsis of the results}{26}{0}{3}
+\beamer@subsectionintoc {3}{5}{A few results}{26}{0}{3}

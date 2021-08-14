@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  14 AUG 2021 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.4)  14 AUG 2021 23:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1198,12 +1198,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 867.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 867.
 Package rerunfilecheck Info: File `PietroTerna_OligopolyAgentiziation.out' has 
 not changed.
-(rerunfilecheck)             Checksum: B5849496E261B7167547E68307B3048D;984.
+(rerunfilecheck)             Checksum: 8D039AAFBD498920051FA2935AB73F48;972.
  ) 
 Here is how much of TeX's memory you used:
  20378 strings out of 480608
  385936 string characters out of 5903631
- 661834 words of memory out of 5000000
+ 661762 words of memory out of 5000000
  35642 multiletter control sequences out of 15000+600000
  576485 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1227,7 +1227,7 @@ ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts
 rw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on PietroTerna_OligopolyAgentiziation.pdf (28 pages, 8440694 byt
+Output written on PietroTerna_OligopolyAgentiziation.pdf (28 pages, 8440689 byt
 es).
 PDF statistics:
  1783 PDF objects out of 2073 (max. 8388607)
