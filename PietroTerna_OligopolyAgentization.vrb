@@ -1,0 +1,26 @@
+\frametitle{Simulation steps: wages}
+
+\begin{columns}[T]
+\begin{column}{.7\textwidth}
+\begin{block}{}
+% Your text here
+
+
+\begin{itemize}
+\item[$\diamond$] Wages (temporary) rise due both to full employment (method \verb|fullEmploymentEffectOnWages|), and
+\item[$\diamond$] to the creation of barriers against new entrants (method \verb|incumbentActionOnWages|).
+\end{itemize}
+
+\end{block}
+\end{column}
+
+ \begin{column}{.3\textwidth}
+ \vspace{-7.5\baselineskip}
+ \begin{block}{}
+% Your image included here
+ \fbox{\includegraphics[scale=0.05]{OligopolyOutline8.png}}
+  \end{block}
+  \end{column}
+
+\end{columns}
+

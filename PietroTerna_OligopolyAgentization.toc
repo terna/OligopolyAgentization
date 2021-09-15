@@ -1,0 +1,15 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{A book on \emph {Rethinking Macroeconomics}}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Starting questions}{3}{0}{1}
+\beamer@sectionintoc {2}{Theoretical analysis}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Main assumptions}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Outputs and aggregate demand}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Equilibrium in the market}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{Entry exit}{9}{0}{2}
+\beamer@subsectionintoc {2}{5}{Wages}{12}{0}{2}
+\beamer@sectionintoc {3}{Generative agent-based simulation}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{A premise to the simulation side of the presentation}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{Simulation tool}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{Outline of the simulation model}{15}{0}{3}
+\beamer@subsectionintoc {3}{4}{Simulation steps}{17}{0}{3}
+\beamer@subsectionintoc {3}{5}{A few results}{26}{0}{3}
